@@ -139,7 +139,7 @@ with st.sidebar:
     st.divider()
     st.markdown('<p class="small-font">Coding and template by Paolo Pozzoli</p>', unsafe_allow_html=True)
 
-    img_pp = Image.open(os.getcwd() + "\\pp.jpg")
+    img_pp = Image.open(os.getcwd() + "/pp.jpg")
 
     st.image(img_pp,
             caption='Follow me on LinkedIn - https://www.linkedin.com/in/paolo-pozzoli-9bb5a183/',
